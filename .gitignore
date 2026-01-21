@@ -1,0 +1,64 @@
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Xcode archive files
+*.xcarchive
+
+# App
+*.app
+*.ipa
+
+# iOS Simulator
+*.simdevice
+*.simulatorstate
+*.xctest
+
+# Temporary files
+*.swp
+*.lock
+*.DS_Store
+*.log
+*.tmp
+
+# C++/llama-wrapper
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# 모델 파일
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+# 사용자 설정
+*.xcuserdatad
+llama.cpp/
